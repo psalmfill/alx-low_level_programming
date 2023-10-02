@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+/**
+* main - Entry point
+* Description: 'print a string'
+* Return: Always 0 (Success)
+*/
+int main(void)
+{
+int integerType;
+float floatType;
+char charType;
+long int longInt;
+long long longLong;
+/* Sizeof operator is used to evaluate the size of a variable*/
+printf("Size of a char: %ld byte(s)\n", sizeof(charType));
+printf("Size of an int: %ld byte(s)\n", sizeof(integerType));
+printf("Size of a long int: %ld byte(s)\n", sizeof(longInt));
+printf("Size of a long long: %ld byte(s)\n", sizeof(longLong));
+printf("Sizze of a float: %ld byte(s)\n", sizeof(floatType));
+return (0);
+}
