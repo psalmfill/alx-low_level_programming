@@ -7,3 +7,4 @@
 6-sum_dlistint.c - a function that returns the sum of all the data (n) of a dlistint_t linked list.
 7-insert_dnodeint.c - a function that inserts a new node at a given position.
 8-delete_dnodeint.c - a function that deletes the node at index index of a dlistint_t linked list.
+102-result - A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
